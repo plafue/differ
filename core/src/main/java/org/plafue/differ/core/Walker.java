@@ -31,7 +31,5 @@ public class Walker {
             }
         });
         return new Contents(dirs,files, dir);
-
     }
-
 }

@@ -10,7 +10,8 @@ public class DifferResult {
     public final Set<Path> modifiedFiles;
     public final Set<Path> newDirectories;
 
-    public DifferResult(Set<Path> newFiles, Set<Path> deletedFiles, Set<Path> availableFiles, Set<Path> modifiedFiles, Set<Path> newDirectories) {
+    public DifferResult(Set<Path> newFiles, Set<Path> deletedFiles, Set<Path> availableFiles,
+                        Set<Path> modifiedFiles, Set<Path> newDirectories) {
         this.newFiles = newFiles;
         this.deletedFiles = deletedFiles;
         this.availableFiles = availableFiles;

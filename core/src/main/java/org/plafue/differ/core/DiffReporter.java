@@ -1,7 +1,6 @@
 package org.plafue.differ.core;
 
 import com.google.common.io.Resources;
-import com.googlecode.htmlcompressor.compressor.HtmlCompressor;
 import freemarker.template.*;
 import org.apache.commons.lang3.StringEscapeUtils;
 

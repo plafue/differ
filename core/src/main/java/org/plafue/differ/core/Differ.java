@@ -34,11 +34,11 @@ public class Differ {
         Set<Path> newFiles       = Differ.evaluateNewFiles(originalContent, revisedContent);
         Set<Path> deletedFiles   = Differ.evaluateDeletedFiles(originalContent, revisedContent);
         Set<Path> availableFiles = Differ.evaluateAvailableFiles(revisedContent, deletedFiles);
-        Set<Path> modifiedFiles = availableFiles.stream()
-                .filter(f -> Differ.isModified(f, original, revised))
-                .collect(Collectors.toSet());
+        Set<Path> modifiedFiles  = availableFiles.stream()
+                                        .filter(f -> Differ.isModified(f, original, revised))
+                                        .collect(Collectors.toSet());
 
-        return new DifferResult(newFiles,deletedFiles,availableFiles,modifiedFiles,newDirectories);
+        return new DifferResult(newFiles, deletedFiles, availableFiles, modifiedFiles, newDirectories);
 
     }
 

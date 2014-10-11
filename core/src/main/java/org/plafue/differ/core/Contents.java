@@ -16,14 +16,9 @@ public class Contents {
         this.originalDir = originalDir;
     }
 
-    public Set<Path> getRelativeFiles(){
-        return relativize(files);
-    }
-
-    private Set<Path> relativize(Set<Path> path) {
-
-    return path.stream()
-            .map(originalDir::relativize)
-            .collect(Collectors.toSet());
+    public Set<Path> getRelativeFiles() {
+        return files.stream()
+                .map(originalDir::relativize)
+                .collect(Collectors.toSet());
     }
 }

@@ -12,6 +12,9 @@
     <artifactId>cli</artifactId>
     <packaging>jar</packaging>
 
+    <name>differ core</name>
+    <description>core of the differ project - a filesystem structure comparator and reporter</description>
+
     <licenses>
         <license>
             <name>MIT License</name>
@@ -37,7 +40,7 @@
         <dependency>
             <groupId>org.plafue.differ</groupId>
             <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
     <build>

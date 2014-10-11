@@ -14,6 +14,15 @@
         <module>cli</module>
     </modules>
 
+    <name>differ parent</name>
+    <description>parent pom of the differ project - a filesystem structure comparator and reporter</description>
+
+    <scm>
+        <connection>scm:git:git@github.com:plafue/differ.git</connection>
+        <url>scm:git:git@github.com:plafue/differ.git</url>
+        <developerConnection>scm:git:git@github.com:plafue/differ.git</developerConnection>
+    </scm>
+
     <licenses>
         <license>
             <name>MIT License</name>
