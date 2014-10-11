@@ -1,0 +1,29 @@
+[[section-glossary]]
+== Glossar
+
+
+[role="arc42help"]
+****
+.Inhalt
+Die wichtigsten Begriffe der Software-Architektur in alphabetischer Reihenfolge
+
+.Motivation
+Sie sollten relevante Begriffe im Rahmen eines Systems oder eines Teams konsistent verstehen und verwenden. 
+
+.Form
+einfache zweispaltige Tabelle mit <Begriff> und <Definition>
+****
+
+[cols="1,2" options="header"]
+.Glossar
+|===
+|Begriff
+|Definition
+
+|Ein Fluff
+|Ein Fluff ist echt super
+
+
+|Ein Moep
+|Ein Moep kann man verbessern
+|===
