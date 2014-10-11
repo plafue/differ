@@ -1,5 +1,6 @@
 differ - comparator/reporter of filesystem changes
 ==================================================
+[![Build Status](https://travis-ci.org/plafue/differ.svg)](https://travis-ci.org/plafue/differ)
 
 This little tool will recursivelly comparey two directory trees and report changes in their structure. 
 It also detects modified files and provides a nice overview of the changes in a side-by-side view.
