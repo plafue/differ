@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8"/>
   <title>Release diff</title>
-  <#include "/scripts.ftl">
-  <#include "/styles.ftl">
+  <#include "scripts.ftl">
+  <#include "styles.ftl">
   <script>
       function initUI(div, original, revision) {
 

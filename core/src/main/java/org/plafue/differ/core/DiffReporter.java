@@ -20,7 +20,7 @@ public class DiffReporter {
         cfg.setObjectWrapper(ObjectWrapper.DEFAULT_WRAPPER);
         cfg.setDefaultEncoding("UTF-8");
         cfg.setTemplateExceptionHandler(TemplateExceptionHandler.HTML_DEBUG_HANDLER);
-        cfg.setDirectoryForTemplateLoading(new File(Resources.getResource("templates").toURI()));
+        cfg.setClassForTemplateLoading(DiffReporter.class,"");
         cfg.setIncompatibleImprovements(new Version(2, 3, 0));
     }
 
@@ -28,7 +28,7 @@ public class DiffReporter {
 
         Map<Object, Object> root = buildModel(result, originalsDir, revisedDir);
         Writer fileOut = new FileWriter(new File(outputDir.toFile(),"diff.html"));
-        cfg.getTemplate("template.ftl").process(root, fileOut);
+        cfg.getTemplate("templates/template.ftl").process(root, fileOut);
     }
 
     private Map<Object, Object> buildModel(DifferResult result, Path originalsDir, Path revisedDir) {

@@ -1,13 +1,13 @@
 <style><#include "styles/codemirror.css"></style>
 <style><#include "styles/merge.css"></style>
 <style>
-  h3 { font-family: "Arial"; }
-  h2 { font-family: "Arial"; }
-  h1 { font-family: "Arial"; }
+  h3, h2, h1 { font-family: "Arial";}
+  h3 { padding-left: 15px; margin-top: 8px; margin-bottom: 12px}
   body { margin: 35px}
-  .del { background-color: #F5E9ED; border: 1px solid #DEC8CF; padding: 8px 4px 10px 10px}
-  .mod { background-color: #EBE9F5; border: 1px solid #D3D1DE; padding: 0px 10px 20px 10px; margin-bottom:25px}
-  .new { background-color: #EAF5E9; border: 1px solid #CCDECA; padding: 8px 4px 10px 10px}
+  .changes-div {padding: 8px;margin-bottom:20px; border: 1px solid;}
+  .del { background-color: #F5E9ED; border-color: #DEC8CF; }
+  .mod { background-color: #EBE9F5; border-color: #D3D1DE; }
+  .new { background-color: #EAF5E9; border-color: #CCDECA; }
   .CodeMirror { line-height: 1.2; }
   span.clicky {
     cursor: pointer;

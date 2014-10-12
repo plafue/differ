@@ -12,7 +12,7 @@
     <artifactId>cli</artifactId>
     <packaging>jar</packaging>
 
-    <name>differ core</name>
+    <name>differ cli</name>
     <description>core of the differ project - a filesystem structure comparator and reporter</description>
 
     <licenses>
