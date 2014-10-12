@@ -8,7 +8,7 @@
 Die wichtigsten Begriffe der Software-Architektur in alphabetischer Reihenfolge
 
 .Motivation
-Sie sollten relevante Begriffe im Rahmen eines Systems oder eines Teams konsistent verstehen und verwenden. 
+Sie sollten relevante Begriffe im Rahmen eines Systems oder eines Teams konsistent verstehen und verwenden.
 
 .Form
 einfache zweispaltige Tabelle mit <Begriff> und <Definition>
@@ -25,5 +25,5 @@ einfache zweispaltige Tabelle mit <Begriff> und <Definition>
 
 
 |Ein Moep
-|Ein Moep ist jetzt der knaller
+|Ein Moep ist jetzt der Knaller
 |===

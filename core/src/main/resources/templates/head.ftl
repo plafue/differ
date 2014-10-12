@@ -22,7 +22,8 @@
           lineNumbers: true,
           mode: mode,
           highlightDifferences: true,
-          showMergeArrows: false
+          showMergeArrows: false,
+          jumpToFirstDiff: true
         });
       }
   </script>

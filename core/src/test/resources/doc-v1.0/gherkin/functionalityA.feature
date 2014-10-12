@@ -14,21 +14,27 @@ Feature: Some terse yet descriptive text of what is desired
    Given some precondition
      And some other precondition
     When some action by the actor
-      And some other action
-      And yet another action
-     Then some testable outcome is achieved
-      And something else we can check happens too
-      And now even more stuff should happen!!
+     And some other action
+     And yet another action
+    Then some testable outcome is achieved
+     And something else we can check happens too
+     And now even more stuff should happen!!
 
  @lame
+ Scenario: CHAOS!
+   Given I don't even like cucumbers
+     And I try to share them with others
+    When people think I'm shoving cucumbers down their throats
+    Then chaos ensured!
+
  Scenario:
    Given some precondition
      And some other precondition
     When some action by the actor
-      And some other action
-      And yet another action
-     Then some testable outcome is achieved
-      And something else we can check happens too
+     And some other action
+     And yet another action
+    Then some testable outcome is achieved
+     And something else we can check happens too
 
  Scenario: scenario with a table!
    Given all these people:
@@ -38,15 +44,15 @@ Feature: Some terse yet descriptive text of what is desired
      | Joe   | joe@email.org   | 456   |
      And some other precondition
     When some action by the actor
-      And some other action
-      And yet another action
-     Then some testable outcome is achieved
-      And something else we can check happens too
+     And some other action
+     And yet another action
+    Then some testable outcome is achieved
+     And something else we can check happens too
 
  Scenario Outline: eating
   Given there are <start> cucumbers
-  When I eat <eat> cucumbers
-  Then I should have <left> cucumbers
+   When I eat <eat> cucumbers
+   Then I should have <left> cucumbers
 
   Examples:
     | start | eat | left |

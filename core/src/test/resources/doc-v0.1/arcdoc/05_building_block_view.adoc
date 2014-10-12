@@ -72,7 +72,7 @@ Schnittstellen _Bausteinname_::
 [cols="1,2" options=""]
 |===
 | Schnittstelle 1 | Beschreibung 1
-| Schnittstelle 2 | Beschreibung 2
+| Schnittstelle 2 | Beschreibung 2
 | Schnittstelle 3 | Beschreibung 3
 |===
 
