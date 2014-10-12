@@ -86,7 +86,7 @@ Erfüllte Anforderungen::
 [cols="1,2" options=""]
 |===
 | Anforderung 1 | Bemerkung 1
-| Anforderung 2 | Bemerkung 2
+| Anforderung 2 | Bemerkung 2
 | Anforderung 3 | Bemerkung 3
 |===
 
